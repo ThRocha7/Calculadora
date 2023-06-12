@@ -1,0 +1,65 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border: none;
+}
+
+.body-da-calculadora{
+    background-color: rgb(96, 92, 92);
+    border-radius: 10px;
+    width: 500px;
+    height: 700px;
+    margin: auto;
+    margin-top: 300px;
+}
+
+.visor{
+    background-color: grey;
+    width: auto;
+    height: 200px;
+    border-radius: 10px 10px 0px 0px;
+    margin-bottom: 10px;
+}
+
+.posicaobtn{
+    display: flex;
+    flex-direction: row;
+    gap: 0px;
+    
+}
+
+.botoesnum{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2px;
+}
+
+.num{
+    background-color: gainsboro;
+    width: 100px;
+    height: 80px;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 2rem;
+}
+
+#zero{
+    width: 200px;
+}
+
+.botoesoperacoes{
+    display: flex;
+    color: #fff;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.ope{
+    width: 100px;
+    height: 70px;
+    color: #fff;
+    font-size: 2rem;
+    padding: 2px;
+    border-radius: 10px;
+}
